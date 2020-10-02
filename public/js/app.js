@@ -16,7 +16,7 @@ weatherForm.addEventListener("submit", (e) => {
 				} else {
 					console.log(res)
 					message1.textContent = res.location
-					message2.textContent = res.forecastData.temp
+					message2.textContent = "Current temprature is " + res.forecastData.temp + "deg celcius."
 				}
 			})
 		})
